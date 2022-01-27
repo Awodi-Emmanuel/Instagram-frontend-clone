@@ -90,6 +90,7 @@ nav{
     width: 6em;
     height:2em;
     border:unset;
+    cursor: pointer;
 }
 .profile-info .user-check{
     color:#ffffff;
@@ -108,4 +109,15 @@ nav{
     width:4em;
     height:2em;
     border:unset;
+}
+
+.gallery-nav{
+    height: 3em;
+    /* background-color: brown; */
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
